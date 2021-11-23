@@ -27,7 +27,7 @@ def ServerPush(info): #Server酱推送
 def main():
     try:
 
-            url = "https://wxzfb.qduhospital.cn/wehospital/opregister/getschedoclist?departmentCode=cSt3dw&schDate=2021-12-22"
+            url = "https://wxzfb.qduhospital.cn/wehospital/opregister/getschedoclist?departmentCode=cSt3dw&schDate=2021-12-29"
 
             payload='departmentCode=%20cSt3dw&schDate=%202021-12-22'
             headers = {
