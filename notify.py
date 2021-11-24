@@ -44,8 +44,8 @@ def main():
             msg =  t['msg']
             htxt = t['html']
             print(htxt)
-            #if htxt.__contains__("暂无数据"):
-            ServerPush(msg+htxt)
+            if not htxt.__contains__("暂无数据"):
+                ServerPush(msg+htxt)
             # CoolPush(tdwt)
     except Exception:
         error = '【出现错误】\n　青医推送错误，请检查服务或网络状态！'
